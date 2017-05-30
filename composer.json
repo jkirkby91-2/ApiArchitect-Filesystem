@@ -1,0 +1,26 @@
+{
+    "name": "apiarchitect/filesystem",
+    "description": "FileSystem For ApiArchitect.",
+    "keywords": ["Filesystem", "ApiArchitect", "lumen"],
+    "license": "CC BY-NC-SA",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/filesystem": "5.4.*",
+        "illuminate/support": "5.4.*"        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiArchitect\\FileSystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiArchitect\\FileSystem\\Tests\\": "tests/"
+        }
+    }
+}
